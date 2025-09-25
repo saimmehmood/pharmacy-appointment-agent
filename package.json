@@ -29,12 +29,12 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/yourusername/pharmacy-appointment-agent.git"
+    "url": "https://github.com/saimmehmood/pharmacy-appointment-agent.git"
   },
   "bugs": {
-    "url": "https://github.com/yourusername/pharmacy-appointment-agent/issues"
+    "url": "https://github.com/saimmehmood/pharmacy-appointment-agent/issues"
   },
-  "homepage": "https://github.com/yourusername/pharmacy-appointment-agent#readme",
+  "homepage": "https://github.com/saimmehmood/pharmacy-appointment-agent#readme",
   "type": "module",
   "devDependencies": {
     "@types/dotenv": "^6.1.1",
