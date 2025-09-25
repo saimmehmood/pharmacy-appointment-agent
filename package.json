@@ -1,0 +1,59 @@
+{
+  "name": "pharmacy-appointment-agent",
+  "version": "1.0.0",
+  "description": "A voice-ready conversation agent built on Retell AI that handles pharmacy appointment booking, rescheduling, and cancellation with natural language processing.",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "nodemon --watch src --exec ts-node src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "test": "node scripts/test-chat-api.js",
+    "setup-demo": "node scripts/setup-demo-calendar.js",
+    "test:api": "node scripts/test-chat-api.js",
+    "lint": "eslint src/**/*.ts",
+    "lint:fix": "eslint src/**/*.ts --fix",
+    "format": "prettier --write src/**/*.ts"
+  },
+  "keywords": [
+    "pharmacy",
+    "appointments",
+    "retell-ai",
+    "voice-ai",
+    "conversational-ai",
+    "google-calendar",
+    "google-sheets",
+    "typescript",
+    "nodejs"
+  ],
+  "author": "Pharmacy Appointment Agent Team",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/pharmacy-appointment-agent.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/pharmacy-appointment-agent/issues"
+  },
+  "homepage": "https://github.com/yourusername/pharmacy-appointment-agent#readme",
+  "type": "module",
+  "devDependencies": {
+    "@types/dotenv": "^6.1.1",
+    "@types/express": "^5.0.3",
+    "@types/node": "^24.5.2",
+    "eslint": "^9.36.0",
+    "nodemon": "^3.1.10",
+    "prettier": "^3.6.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.2"
+  },
+  "dependencies": {
+    "axios": "^1.12.2",
+    "dayjs": "^1.11.18",
+    "dotenv": "^17.2.2",
+    "express": "^5.1.0",
+    "google-auth-library": "^10.3.0",
+    "googleapis": "^160.0.0",
+    "uuid": "^13.0.0",
+    "zod": "^4.1.11"
+  }
+}
