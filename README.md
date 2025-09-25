@@ -257,8 +257,4 @@ MIT License - see LICENSE file for details
 - **Issues**: GitHub Issues for bug reports
 - **Discussions**: GitHub Discussions for questions
 
----
-
-**Built with ❤️ for better healthcare accessibility**
-
 
